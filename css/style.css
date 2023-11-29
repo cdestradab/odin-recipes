@@ -1,46 +1,52 @@
 html {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
+    color: #63747F;
     text-align: center;
-    background-color: aquamarine;
+    background-color: #EDF2F6;
 }
 
 .main-title {
     font-weight: bolder;
-    color: rgb(8, 8, 167);
+    color: #AEC8D8; 
 }
 
 .img {
     border-style: groove;
-    border-width: 10px;
-    border-color: #a52a2a;
+    border-width: 0.5em;
+    border-color: #4974a5;
 }
 
 .description {
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 .list {
     list-style-type: none;
-    background-color: rgb(150, 21, 21);
+    background-color: #a5c2d4;
 }
 
 .list-item {
-    padding: 10px 10px;
+    display: block;
+    padding: 0.5em;
+}
+
+.link {
+    padding: 0.5em 0.5em;
     display: inline-block;
-    background-color: green;
+    background-color: #525252;
+    color: white;
+    width: 8em;
+}
+
+.link:link {
     color: white;
 }
 
-.list-item:link {
-    color: white;
-}
-
-.list-item:visited {
+.link:visited {
     color: rgb(255, 255, 255);
 }
 
-.list-item:active {
+.link:active {
     color: rgb(236, 236, 140);
 }
-
